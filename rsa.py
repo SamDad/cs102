@@ -32,7 +32,7 @@ def gcd(a: int, b: int) -> int:
         else:
             b %= a
     if a > 0:
-        return  a
+        return a
     else:
         return b
 
